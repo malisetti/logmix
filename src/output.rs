@@ -2,6 +2,7 @@ use std::io::{self, Write};
 
 use crate::record::Record;
 
+#[derive(Clone, Copy)]
 pub enum Format {
     Passthrough,
     Jsonl,
