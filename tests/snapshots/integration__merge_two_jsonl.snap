@@ -1,0 +1,10 @@
+---
+source: tests/integration.rs
+assertion_line: 37
+expression: text
+---
+[b.jsonl] {"msg":"a","ts":1}
+[a.jsonl] {"msg":"b","ts":2}
+[b.jsonl] {"msg":"c","ts":3}
+[b.jsonl] {"msg":"d","ts":4}
+[a.jsonl] {"msg":"e","ts":5}

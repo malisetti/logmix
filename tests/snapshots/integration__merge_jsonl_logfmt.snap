@@ -1,0 +1,7 @@
+---
+source: tests/integration.rs
+assertion_line: 42
+expression: "std::str::from_utf8(&bin().args([fixture(\"app.jsonl\").to_str().unwrap(),\nfixture(\"svc.logfmt\").to_str().unwrap(),]).assert().success().get_output().stdout).unwrap()"
+---
+[app.jsonl] {"level":"info","msg":"from-json","ts":10}
+[svc.logfmt] level=warn msg="from-logfmt" ts=20

@@ -1,0 +1,10 @@
+---
+source: tests/integration.rs
+assertion_line: 99
+expression: text
+---
+{"source":"b.jsonl","ts":1,"raw":"{\"msg\":\"a\",\"ts\":1}"}
+{"source":"a.jsonl","ts":2,"raw":"{\"msg\":\"b\",\"ts\":2}"}
+{"source":"b.jsonl","ts":3,"raw":"{\"msg\":\"c\",\"ts\":3}"}
+{"source":"b.jsonl","ts":4,"raw":"{\"msg\":\"d\",\"ts\":4}"}
+{"source":"a.jsonl","ts":5,"raw":"{\"msg\":\"e\",\"ts\":5}"}
